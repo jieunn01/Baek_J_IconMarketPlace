@@ -17,6 +17,9 @@
       }
 
       .cls-5 { stroke-dasharray: 0.86 0.86; }
+
+      #red-text { cursor: pointer; }
+      #red-text:hover { fill: blue !important; }
     </style>
   </defs>
   <g id="black_bg">

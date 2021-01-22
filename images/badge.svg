@@ -11,6 +11,8 @@
 
 	#newBadge:hover .st1 { fill: purple; }
 	#newBadge:hover .st3 { fill: red !important; }
+
+	#newBadge:hover { cursor:pointer; }
 </style>
 <g id="Layer_2">
 	<g>
