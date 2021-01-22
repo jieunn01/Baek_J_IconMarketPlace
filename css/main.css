@@ -1,6 +1,10 @@
-.wrapper {
-  width: 43%;
-  display: inline-block;
-}
+body{ font-size: 16px; }
 
+.icon-holder { width: 100%; margin: 0 auto; text-align: center;}
+
+.wrapper { width: 43%; display: inline-block; padding: 1em; }
 .wrapper > img { width: 100%; }
+
+#red-text { cursor: pointer; }
+#red-text:hover { fill: blue !important; }
+/* !important means apply this role no matter what other roles have been applied -> this one is the most important */
