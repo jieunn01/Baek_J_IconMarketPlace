@@ -1,6 +1,45 @@
-.wrapper {
-  width: 43%;
-  display: inline-block;
+body{ font-size: 16px; }
+#container
+{
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
+#smallCon
+{
+  width: 960px;
+  height: 250px;
+  background-color: #F9EAC0;
+  text-align: center;
+  padding: 50px;
+}
+h1 {
+  color: #774D01;
+}
+button{
+  width: 150px;
+  height: 50px;
+  background-color: #FCDAA4;
+  font-size: 26px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.align-center { text-align: center; }
+
+.icon-holder { width: 100%; margin: 0 auto; text-align: center;}
+
+.wrapper { width: 20%; display: inline-block; padding: 1em; }
 .wrapper > img { width: 100%; }
+.hidden{
+  display: none;
+}
+#music { cursor: pointer; }
+#music:hover { fill: orange !important; }
+
+#black { cursor: pointer; }
+#black:hover { fill: grey !important; }
+
+
+#up-dark { cursor: pointer; }
+#up-dark:hover { fill: grey !important; }
+/* !important means apply this role no matter what other roles have been applied -> this one is the most important */

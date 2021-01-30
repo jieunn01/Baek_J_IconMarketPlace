@@ -4,14 +4,19 @@
   // stub
   console.log('JS is linked!');
 
-  let theButton = document.querySelector(".icon-button");
-      theIcons = document.querySelectorAll(".icon");
+  let theBadge = document.querySelector('.wrapper img'),
+      theBadges = document.querySelectorAll('.wrapper img');
 
-  function logClick() {
-    console.log('clicked the button (or icon)!');
+  let theButton = document.querySelector(".icon-button");
+
+  //put your functions here
+  function logMyId() {
+    console.log('clicked on an image!');
+    console.log("my id:", this.id);
   }
 
-  theButton.addEventListener('click', logClick);
-  theIcons.forEach(icon => icon.addEventListener('click' , logClick));
+  //event handling at the bottom
+  theBadge.addEventListener("click", logMyId);
 
-})();
+  theBadges.forEach(badge => badge.addEventListener("click", logMyId));
+})()

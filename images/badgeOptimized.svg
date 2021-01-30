@@ -1,21 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 166.69 167.01">
   <defs>
     <style>
-      .cls-1 {
-        fill: #fff;
-      }
+      .cls-1 { fill: #fff; }
 
-      .cls-2 {
-        fill: red;
-      }
+      .cls-2 { fill: red; }
 
-      .cls-3 {
-        fill: #999;
-      }
+      .cls-3 { fill: #999; }
 
-      .cls-4, .cls-6 {
-        opacity: 0.7;
-      }
+      .cls-4, .cls-6 { opacity: 0.7; }
 
       .cls-5, .cls-6 {
         fill: none;
@@ -24,9 +16,10 @@
         stroke-width: 0.5px;
       }
 
-      .cls-5 {
-        stroke-dasharray: 0.86 0.86;
-      }
+      .cls-5 { stroke-dasharray: 0.86 0.86; }
+
+      #red-text { cursor: pointer; }
+      #red-text:hover { fill: blue !important; }
     </style>
   </defs>
   <g id="black_bg">
