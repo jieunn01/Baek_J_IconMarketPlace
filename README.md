@@ -2,7 +2,7 @@
 
 #### Homework 1 Icon Market Place : set SVG icons
 
-#### description: Build a branded, scalable themed icon set using Adobe Illustrator. Export each icon from
+#### Description: Build a branded, scalable themed icon set using Adobe Illustrator. Export each icon from
 Illustrator as an SVG. Use the SVGs as assets on a webpage.
 
 #### Our Music Life:  devided into two types with music area(or music note) and actions. Click the music notes or where you think the music will play. It will turn to bright color!
