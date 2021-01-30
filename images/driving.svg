@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg id="driving" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 355.1 271.2" style="enable-background:new 0 0 355.1 271.2;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#FDFEFE;}
+
+	#music { cursor: pointer; }
+	#music:hover { fill: orange !important; }
+
+	#black { cursor: pointer; }
+	#black:hover { fill: grey !important; }
+
 </style>
 <g id="black_2_">
 	<g id="driving">
@@ -46,4 +53,16 @@
 		</g>
 	</g>
 </g>
+<defs>
+	<script>
+		let badge = document.querySelector("#driving");
+
+		function logMyId() {
+			console.log(this.id)
+		}
+
+		badge.addEventListener("click", logMyId)
+
+	</script>
+</defs>
 </svg>

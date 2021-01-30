@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg id="eating" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 308.4 292.2" style="enable-background:new 0 0 308.4 292.2;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#F9F9FA;}
+
+	#music { cursor: pointer; }
+	#music:hover { fill: orange !important; }
+
+	#black { cursor: pointer; }
+	#black:hover { fill: grey !important; }
+
 </style>
 <g id="black">
 	<path id="black_9_" d="M98.3,35.2c0,17.9-14.5,32.4-32.4,32.4S33.5,53.1,33.5,35.2S48,2.8,65.9,2.8S98.3,17.3,98.3,35.2z
@@ -25,4 +32,16 @@
 <g id="white">
 	<polygon id="white_5_" class="st0" points="24.2,256 89,256 89,229.8 26.3,229.8 	"/>
 </g>
+<defs>
+	<script>
+		let badge = document.querySelector("#eating");
+
+		function logMyId() {
+			console.log(this.id)
+		}
+
+		badge.addEventListener("click", logMyId)
+
+	</script>
+</defs>
 </svg>

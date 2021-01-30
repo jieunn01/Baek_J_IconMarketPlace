@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg id="cooking" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 312 327.6" style="enable-background:new 0 0 312 327.6;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#F9F9FA;}
+
+	#music { cursor: pointer; }
+	#music:hover { fill: orange !important; }
+
+	#black { cursor: pointer; }
+	#black:hover { fill: grey !important; }
+
+
+	#up-dark { cursor: pointer; }
+	#up-dark:hover { fill: grey !important; }
+
 </style>
 <g id="black_1_">
 	<path id="black" d="M39.6,84.7l21.2,10.9L33.9,157c-0.5,1.1-1.7,1.8-2.9,1.7c-1.6-0.1-4.4,0.8-8.4,5.6c-7.2,8.5-2,19.8-2,19.8
@@ -30,4 +41,16 @@
 <g id="up-dark_1_">
 	<path id="up-dark" d="M144.8,261h45.1l15.7-63.9c-45.1-15-79.9,0-79.9,0L144.8,261z"/>
 </g>
+<defs>
+	<script>
+		let badge = document.querySelector("#cooking");
+
+		function logMyId() {
+			console.log(this.id)
+		}
+
+		badge.addEventListener("click", logMyId)
+
+	</script>
+</defs>
 </svg>
